@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone') {
 			steps{
-				git branch: 'main', url: 'https://github.com/ducngovan/lab2_jenkisn.git'
+				git branch: 'main', url: 'https://github.com/ducngovan/bai2_lab2.git'
 			}
 		}
 	}
